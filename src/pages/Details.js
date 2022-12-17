@@ -31,7 +31,9 @@ const Details = () => {
             width='300px' 
         />
         <Stack>
-            <Typography variant='h3'>{singleProduct.title}</Typography>
+            <Typography sx={{ 
+                    fontSize: { lg: '28px', xs: '23px'},
+                }} fontWeight='600'>{singleProduct.title}</Typography>
             <Typography fontWeight='550' mt='15px'>{singleProduct.description}</Typography>
             <Typography fontWeight='600' textAlign='center' mt='20px' mb='20px'>${singleProduct.price}</Typography>
             <Button

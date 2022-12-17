@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
     const { id } = product;
     
   return (
-    <Stack flexDirection='column' position='relative' m='40px'>
+    <Stack flexDirection='column' position='relative' m='40px' sx={{ mt: { xs: '58px', }}}>
         <Link to={`/products/${id}`} textDecoration='none'>
             <img
                 src={product.image}
@@ -20,6 +20,7 @@ const ProductCard = ({ product }) => {
                 borderRadius='10px'
                 cursor='pointer'
                 onTransitionEnd='0.3s'
+                className='product-img'
             />
         </Link>
         <Typography

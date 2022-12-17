@@ -14,9 +14,9 @@ const Navbar = () => {
         direction='row' 
         alignItems='center' 
         justifyContent='center'
-        sx={{ gap: { lg: '270px', xs: '13px'}}}
+        sx={{ gap: { lg: '180px', xs: '10px'}}}
         height='90px'
-        boxShadow='0 0 18px rgba(0, 0, 0, 0.7)'
+        boxShadow='0 0 10px rgba(0, 0, 0, 0.4)'
         margin='0px'
         position='sticky'
         top='0px'
@@ -72,8 +72,10 @@ const Navbar = () => {
                 </Button>
             </NavLink>
         </Stack>
-        <Stack direction='row' alignItems='center' gap='10px'>
-            <Stack direction='row' position='relative'>
+        <Stack direction='row' alignItems='center' gap='10px' mr='10px'>
+            <Stack direction='row' position='relative' sx={{
+                display: { lg: 'block', xs: 'none'}
+            }}>
                 <input 
                     type='text'
                     className='search-input'
@@ -92,7 +94,6 @@ const Navbar = () => {
                     transform: 'translateY(20%)'
                 }}/>
             </Stack>
-            <FaRegHeart />
             <Stack direction='row' alignItems='center' position='relative'>
                 <NavLink to='/checkout'>
                     <FaShoppingCart />
