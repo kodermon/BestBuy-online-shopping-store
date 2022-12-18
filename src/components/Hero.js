@@ -8,6 +8,8 @@ const Hero = () => {
     <Box sx={{
         pt: { lg: '120px', xs: '60px'},
         pb: { lg: '120px', xs: '60px'},
+        pl: { lg: '50px', xs: '10px'},
+        pr: { lg: '50px', xs: '10px'},
     }}>
         <Stack sx={{
                 flexDirection: { lg: 'row'},
