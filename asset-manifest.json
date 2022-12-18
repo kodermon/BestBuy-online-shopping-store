@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/BestBuy-online-shopping-store/static/css/main.d34eaa21.css",
+    "main.js": "/BestBuy-online-shopping-store/static/js/main.6457bec7.js",
+    "static/media/herobanner1.jpg": "/BestBuy-online-shopping-store/static/media/herobanner1.42e0e72c70b0fe737d40.jpg",
+    "index.html": "/BestBuy-online-shopping-store/index.html",
+    "main.d34eaa21.css.map": "/BestBuy-online-shopping-store/static/css/main.d34eaa21.css.map",
+    "main.6457bec7.js.map": "/BestBuy-online-shopping-store/static/js/main.6457bec7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d34eaa21.css",
+    "static/js/main.6457bec7.js"
+  ]
+}
